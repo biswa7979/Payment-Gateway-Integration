@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgba(228, 225, 225, 0.829);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    width: 20.13rem;
+    background-color: white;
+    padding: 5rem 2rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1{
+    font-style: italic;
+    margin-bottom: 2rem;
+
+}
+p{
+    opacity: .7;
+    margin-bottom: 2rem;
+}
