@@ -29,7 +29,7 @@ main{
     background-color: var(--graish-white);
     position: relative;
 }
-.left img{
+.left .logo1{
     margin-bottom: 3rem;
 }
 .left h1{
@@ -38,6 +38,7 @@ main{
     font-weight: 800;
     color:var(--light-black);
     margin-bottom: 2rem;
+    line-height: 4.5rem;
 
 }
 .left p{
@@ -58,7 +59,7 @@ main{
     color: white;
     border-radius: .3rem;
     cursor: pointer;
-    transition: .5s ease-in-out;
+    transition: .2s ease-in-out;
     
 }
 .left button:hover{
@@ -69,17 +70,18 @@ main{
     color: white;
 }
 .left .social{
-    position: absolute;
     display: flex;
     align-items:center;
     gap: 2.5rem;
-    bottom: 0;
+    margin-top: 3rem;
+
 }
 .left .social .p1{
     display: flex;
     gap: .5rem;
     font-family: serif;
     cursor: pointer;
+    height: 2rem;
 
 }
 .right{
@@ -98,7 +100,7 @@ main{
     list-style: none;
     padding: .5rem 1rem;
     border-radius: .2rem;
-    transition: .5s ease-in;
+    transition: .2s ease-in;
 }
 .right nav ul li:hover{
     color:white;
@@ -107,7 +109,8 @@ main{
 .right nav ul li a{
     text-decoration: none;
     color: var(--light-black);
-    font-family:sans-serif;
+    font-family: var(--font3);
+
 }
 .right img{
     position: absolute;
